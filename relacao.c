@@ -388,9 +388,6 @@ int main()
 
     fclose(fp);
 
-    printElements(set);
-    printRelations(set);
-
     allocateOrderedPairArrays(&set);
     getProperties(&set);
 
